@@ -35,6 +35,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 case R.id.idFavourites:
                     replaceFragment(new WishlistFragment());
                     break;
+                case R.id.idCategory:
+                    replaceFragment(new CategoryFragment());
             }
 
 
